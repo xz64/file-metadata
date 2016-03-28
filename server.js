@@ -24,4 +24,6 @@ app.post('/api/upload', function(req, res) {
   });
 });
 
+app.use(express.static('public'));
+
 app.listen(port);
